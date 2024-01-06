@@ -1,0 +1,12 @@
+ipApi: http://ip-api.com/json/
+
+
+spring:
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
+  r2dbc:
+    url: r2dbc:postgresql://localhost:61500/mydb
+    username: myuser
+    password: mypassword
